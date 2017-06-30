@@ -23,7 +23,8 @@ import csv
 # Eval Parameters
 tf.flags.DEFINE_integer("batch_size", 50, "Batch Size (default: 64)")
 # tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.flags.DEFINE_string("checkpoint_dir", "./runs/1491221902/checkpoints", "Checkpoint directory from training run")  #149182239
+# tf.flags.DEFINE_string("checkpoint_dir", "./runs/1491221902/checkpoints", "Checkpoint directory from training run")  #149182239
+tf.flags.DEFINE_string("checkpoint_dir", "./runs/checkpoints", "Checkpoint directory from training run")  #149182239
 # tf.flags.DEFINE_string("checkpoint_dir", "./runs/1491097515/checkpoints", "Checkpoint directory from training run")
 tf.flags.DEFINE_boolean("eval_train", True, "Evaluate on all training data")
 # tf.flags.DEFINE_boolean("eval_train", False, "Evaluate on all training data")
